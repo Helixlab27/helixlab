@@ -28,8 +28,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} style={{ scrollBehavior: "smooth" }}>
-            <body className="antialiased">
+        <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} style={{ scrollBehavior: "smooth", colorScheme: "light", backgroundColor: "white" }}>
+            <body className="antialiased" style={{ backgroundColor: "white", color: "black" }}>
                 <MobileNav />
                 <nav className="hidden md:flex fixed top-0 left-0 right-0 z-50 items-center justify-between px-10 h-14 bg-white/85 backdrop-blur-md border-b border-black/6">
                     <a href="/accueil" className="text-base font-bold tracking-tight text-black">Helixlab.</a>
