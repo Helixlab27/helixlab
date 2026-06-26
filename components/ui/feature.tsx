@@ -1,0 +1,63 @@
+import { Check } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+
+function Feature() {
+  return (
+    <div className="w-full py-10 lg:py-40">
+      <div className="container mx-auto px-4">
+        <div className="grid border rounded-lg p-4 sm:p-8 grid-cols-1 gap-8 items-center lg:grid-cols-2">
+          <div className="flex gap-10 flex-col">
+            <div className="flex gap-4 flex-col">
+              <div>
+                <Badge variant="outline">Pourquoi HelixLab</Badge>
+              </div>
+              <div className="flex gap-2 flex-col">
+                <h2 className="text-3xl lg:text-5xl tracking-tighter max-w-xl text-left font-regular">
+                  Zéro prospect perdu.
+                </h2>
+                <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
+                  Vos leads travaillent pendant que vous dormez.
+                </p>
+              </div>
+            </div>
+            <div className="grid lg:pl-6 grid-cols-1 sm:grid-cols-3 items-start lg:grid-cols-1 gap-6">
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Réponse en moins d'une heure</p>
+                  <p className="text-muted-foreground text-sm">
+                    Votre prospect reçoit un message avant d'aller voir un concurrent.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Objections gérées automatiquement</p>
+                  <p className="text-muted-foreground text-sm">
+                    Prix, délais, questions — notre système répond à tout.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-row gap-6 items-start">
+                <Check className="w-4 h-4 mt-2 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <p>Alerte au bon moment</p>
+                  <p className="text-muted-foreground text-sm">
+                    Dès que le prospect confirme son RDV, votre équipe reçoit une notification immédiate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="rounded-md overflow-hidden aspect-video lg:aspect-square">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/telephone.jpg" alt="Téléphone" className="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export { Feature };
