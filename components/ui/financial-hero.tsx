@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'motion/react';
+import { motion, type Variants } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -29,7 +29,7 @@ const itemVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
-const cardsVariants = {
+const cardsVariants: Variants = {
   hidden: { opacity: 0, x: 50 },
   visible: {
     opacity: 1,
