@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation';
+import { redirect } from 'next/navigation'
 
-export default function RootPage() {
-  redirect('/accueil');
+export default function Home() {
+  redirect('/accueil')
 }
