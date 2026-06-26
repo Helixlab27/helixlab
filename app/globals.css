@@ -1,8 +1,18 @@
 @import "tailwindcss";
 
-html, body {
+html {
+  color-scheme: light !important;
   background-color: white !important;
-  color-scheme: light only;
+}
+body {
+  background-color: white !important;
+  color: black !important;
+}
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: white !important;
+    color: black !important;
+  }
 }
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
