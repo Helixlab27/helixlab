@@ -1,5 +1,5 @@
-import HomePage from "@/components/blocks/hero-fashion";
+import { redirect } from 'next/navigation';
 
-export default function DemoPage() {
-    return <HomePage />;
+export default function RootPage() {
+  redirect('/accueil');
 }
