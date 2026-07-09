@@ -63,7 +63,7 @@ export default function Footer() {
                 {/* Séparateur + copyright */}
                 <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-2">
                     <p className="text-xs text-gray-400">
-                        © 2026 Helixlab. Tous droits réservés.
+                        © 2026 Helixlab — Elisa Tholin. Tous droits réservés.
                     </p>
                     <a
                         href="/mentions-legales"

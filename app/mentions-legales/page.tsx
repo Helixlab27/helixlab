@@ -59,7 +59,7 @@ export default function MentionsLegales() {
           </dl>
         </section>
 
-        <p className="text-xs text-gray-400 mt-10">Mise à jour : Juin 2026</p>
+        <p className="text-xs text-gray-400 mt-10">Mise à jour : Juin 2026 — Elisa Tholin, HelixLab®</p>
       </div>
     </main>
   );
