@@ -19,7 +19,7 @@ export default function MentionsLegales() {
             <div><dt className="inline font-medium text-gray-900">Email : </dt><dd className="inline"><a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a></dd></div>
             <div><dt className="inline font-medium text-gray-900">Site : </dt><dd className="inline">helixlab.fr</dd></div>
             <div><dt className="inline font-medium text-gray-900">Localisation : </dt><dd className="inline">Auvergne-Rhône-Alpes, France</dd></div>
-            <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Vercel Inc. — 340 Pine Street, San Francisco, CA 94104, USA</dd></div>
+            <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Netlify, Inc. — 2325 3rd Street, Suite 215, San Francisco, CA 94107, USA</dd></div>
           </dl>
         </section>
 
@@ -43,7 +43,7 @@ export default function MentionsLegales() {
         <hr className="border-gray-100 mb-14" />
 
         {/* Politique de confidentialité */}
-        <section className="mb-14">
+        <section id="politique-confidentialite" className="mb-14">
           <h2 className="text-xs font-semibold tracking-widest text-gray-400 uppercase mb-6">
             Politique de confidentialité
           </h2>
@@ -51,7 +51,7 @@ export default function MentionsLegales() {
             <div><dt className="inline font-medium text-gray-900">Responsable : </dt><dd className="inline">HelixLab® — Elisa Tholin — <a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a></dd></div>
             <div><dt className="inline font-medium text-gray-900">Données collectées : </dt><dd className="inline">Nom, email, téléphone des cliniques clientes</dd></div>
             <div><dt className="inline font-medium text-gray-900">Finalité : </dt><dd className="inline">Fourniture du service de relance automatique</dd></div>
-            <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Vercel — conforme RGPD</dd></div>
+            <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Netlify — conforme RGPD</dd></div>
             <div><dt className="inline font-medium text-gray-900">Sous-traitants : </dt><dd className="inline">Anthropic (Claude AI), Twilio (WhatsApp), Make (automatisation), Google Sheets (données), Meta Platforms (Instagram DM)</dd></div>
             <div><dt className="inline font-medium text-gray-900">Durée de conservation : </dt><dd className="inline">Durée de l&apos;abonnement + 12 mois</dd></div>
             <div><dt className="inline font-medium text-gray-900">Droits : </dt><dd className="inline">Accès, rectification, effacement — contact <a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a> — réclamation <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-900">www.cnil.fr</a></dd></div>
