@@ -3,10 +3,17 @@ exports.handler = async function (event) {
   if (event.httpMethod === "GET") {
     const params = event.queryStringParameters || {};
     const mode = params["hub.mode"];
-    const token = params["hub.verify_token"];
+    const receivedToken = (params["hub.verify_token"] || "").trim();
     const challenge = params["hub.challenge"];
+    const expectedToken = (process.env.INSTAGRAM_VERIFY_TOKEN || "").trim();
 
-    if (mode === "subscribe" && token === process.env.INSTAGRAM_VERIFY_TOKEN) {
+    // Debug : visible dans les logs Netlify (Functions → instagram-webhook)
+    console.log("hub.mode reçu :", mode);
+    console.log("hub.verify_token reçu :", JSON.stringify(receivedToken));
+    console.log("INSTAGRAM_VERIFY_TOKEN attendu :", JSON.stringify(expectedToken));
+    console.log("Tokens identiques :", receivedToken === expectedToken);
+
+    if (mode === "subscribe" && receivedToken === expectedToken) {
       return {
         statusCode: 200,
         headers: { "Content-Type": "text/plain" },
@@ -22,7 +29,6 @@ exports.handler = async function (event) {
     const makeUrl = process.env.MAKE_WEBHOOK_URL;
 
     if (makeUrl) {
-      // Fire-and-forget : on n'await pas pour éviter les timeouts Meta
       fetch(makeUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
