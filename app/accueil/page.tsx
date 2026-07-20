@@ -8,7 +8,7 @@ export default function AccueilPage() {
             {/* Hero */}
             <section id="hero">
                 <FinancialHero
-                    title={<>Vos prospects vous contactent.<br />Vous êtes en soin.<br />Ils partent chez la concurrence.</>}
+                    title={<>Répondez à vos prospects.<br />Même quand vous êtes en soin.</>}
                     description="Helixlab installe un agent IA qui répond à vos prospects 24h/24 sur Instagram, WhatsApp et Messenger — et réserve les RDV directement dans votre agenda."
                     buttonText="Voir la démo"
                     buttonLink="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab"
