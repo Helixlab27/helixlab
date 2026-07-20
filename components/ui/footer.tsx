@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-3">
                         <span className="text-lg font-bold text-gray-900">Helixlab.</span>
                         <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
-                            Le système de relance automatique qui convertit vos prospects en rendez-vous.
+                            L&apos;agent IA qui répond à vos prospects 24h/24 et réserve vos RDV automatiquement.
                         </p>
                     </div>
 

@@ -8,8 +8,8 @@ export default function AccueilPage() {
             {/* Hero */}
             <section id="hero">
                 <FinancialHero
-                    title={<>Vos prospects ne prennent<br />jamais rendez-vous.</>}
-                    description="HelixLab relance automatiquement vos prospects sur les réseaux sociaux. Notre système répond, gère les objections et guide vers un RDV. Votre équipe intervient uniquement quand le prospect est prêt."
+                    title={<>Vos prospects vous contactent.<br />Vous êtes en soin.<br />Ils partent chez la concurrence.</>}
+                    description="Helixlab installe un agent IA qui répond à vos prospects 24h/24 sur Instagram, WhatsApp et Messenger — et réserve les RDV directement dans votre agenda."
                     buttonText="Voir la démo"
                     buttonLink="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab"
                     imageUrl1="/prospect-ecrit.jpg"
@@ -25,8 +25,8 @@ export default function AccueilPage() {
                         L'IA au service de votre clinique.
                     </h2>
                     <p className="text-lg text-gray-600 leading-relaxed">
-                        HelixLab est une agence spécialisée dans la relance automatique de prospects pour les cliniques esthétiques.
-                        Notre système qualifie vos prospects, répond à leurs questions 24h/24 et les guide vers une prise de rendez-vous —
+                        Helixlab est une agence spécialisée dans l&apos;acquisition de clients pour les cliniques esthétiques.
+                        Notre agent IA répond à vos prospects 24h/24 sur tous vos canaux, gère leurs questions et réserve les rendez-vous —
                         sans mobiliser votre équipe.
                     </p>
                 </div>
@@ -47,7 +47,7 @@ export default function AccueilPage() {
                 <div className="container mx-auto max-w-xl text-center">
                     <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase mb-4">Contact</p>
                     <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tighter leading-tight mb-6">
-                        Prêt à automatiser vos relances ?
+                        Prêt à ne plus perdre aucun prospect ?
                     </h2>
                     <p className="text-lg text-gray-400 mb-10">
                         Réservez une démo de 20 minutes et voyez HelixLab en action sur votre clinique.

@@ -60,10 +60,10 @@ export default function HomePage() {
                             </ul>
                             <div>
                                 <h2 className="text-xl md:text-2xl font-medium text-white md:text-black">
-                                    Relance automatique
+                                    Agent IA acquisition
                                 </h2>
                                 <p className="text-base md:text-lg text-white/90 md:text-black/95 max-w-md pt-4 tracking-tight">
-                                    Vos prospects contactent votre clinique mais ne prennent jamais rendez-vous. On s'en occupe automatiquement.
+                                    Helixlab installe un agent IA qui répond à vos prospects 24h/24 et réserve les RDV dans votre agenda.
                                 </p>
                                 <a
                                     href="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab"

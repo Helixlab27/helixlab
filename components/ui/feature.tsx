@@ -9,14 +9,14 @@ function Feature() {
           <div className="flex gap-10 flex-col">
             <div className="flex gap-4 flex-col">
               <div>
-                <Badge variant="outline">Pourquoi HelixLab</Badge>
+                <Badge variant="outline">Pourquoi Helixlab</Badge>
               </div>
               <div className="flex gap-2 flex-col">
                 <h2 className="text-3xl lg:text-5xl tracking-tighter max-w-xl text-left font-regular">
-                  Zéro prospect perdu.
+                  Acquisition automatique, 24h/24.
                 </h2>
                 <p className="text-lg leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                  Vos leads travaillent pendant que vous dormez.
+                  Votre agent IA travaille pendant que vous êtes en soin.
                 </p>
               </div>
             </div>
@@ -24,27 +24,27 @@ function Feature() {
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-4 h-4 mt-2 text-primary" />
                 <div className="flex flex-col gap-1">
-                  <p>Réponse en moins d'une heure</p>
+                  <p>Réponse immédiate 24h/24</p>
                   <p className="text-muted-foreground text-sm">
-                    Votre prospect reçoit un message avant d'aller voir un concurrent.
+                    Votre prospect reçoit une réponse en quelques secondes, même à 23h.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-4 h-4 mt-2 text-primary" />
                 <div className="flex flex-col gap-1">
-                  <p>Objections gérées automatiquement</p>
+                  <p>Prise de RDV automatique</p>
                   <p className="text-muted-foreground text-sm">
-                    Prix, délais, questions — notre système répond à tout.
+                    L&apos;agent qualifie, gère les objections et réserve directement dans votre agenda.
                   </p>
                 </div>
               </div>
               <div className="flex flex-row gap-6 items-start">
                 <Check className="w-4 h-4 mt-2 text-primary" />
                 <div className="flex flex-col gap-1">
-                  <p>Alerte au bon moment</p>
+                  <p>Zéro effort de votre part</p>
                   <p className="text-muted-foreground text-sm">
-                    Dès que le prospect confirme son RDV, votre équipe reçoit une notification immédiate.
+                    Vous arrivez le matin avec des RDV confirmés.
                   </p>
                 </div>
               </div>

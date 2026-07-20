@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "HelixLab — Relance automatique de prospects",
-    description: "HelixLab automatise la relance de vos prospects pour les cliniques esthétiques.",
+    title: "Helixlab — Agent IA acquisition de clients pour cliniques esthétiques",
+    description: "Helixlab installe un agent IA qui répond à vos prospects 24h/24 sur Instagram, WhatsApp et Messenger et réserve les RDV dans votre agenda.",
     other: {
         "color-scheme": "light only",
     },
