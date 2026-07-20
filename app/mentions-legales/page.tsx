@@ -31,12 +31,13 @@ export default function MentionsLegales() {
             Conditions générales de vente
           </h2>
           <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
-            <p><span className="font-medium text-gray-900">Article 1 — Objet : </span>Les présentes CGV régissent les relations entre HelixLab® et tout professionnel souscrivant au service de relance automatique de prospects.</p>
-            <p><span className="font-medium text-gray-900">Article 2 — Prix : </span>Sur devis personnalisé. TVA non applicable — article 293 B du CGI.</p>
-            <p><span className="font-medium text-gray-900">Article 3 — Durée : </span>Abonnement mensuel sans engagement. Résiliation par email à <a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a> avec 30 jours de préavis.</p>
-            <p><span className="font-medium text-gray-900">Article 4 — Paiement : </span>Par virement bancaire.</p>
-            <p><span className="font-medium text-gray-900">Article 5 — Responsabilité : </span>HelixLab® est soumis à une obligation de moyens. Responsabilité limitée au montant mensuel.</p>
-            <p><span className="font-medium text-gray-900">Article 6 — Droit applicable : </span>Droit français. Tribunaux d&apos;Auvergne-Rhône-Alpes.</p>
+            <p><span className="font-medium text-gray-900">Article 1 — Objet : </span>Les présentes CGV régissent les relations entre Helixlab (Elisa Tholin, SIRET 10328251300011) et tout professionnel souscrivant au service d&apos;agent IA disponible 24h/24 sur Instagram, WhatsApp et Messenger pour cliniques esthétiques — réponse aux prospects, prise de RDV Google Calendar, génération de devis et relances automatiques selon la formule choisie.</p>
+            <p><span className="font-medium text-gray-900">Article 2 — Prix : </span>Les tarifs sont ceux mentionnés dans le devis accepté par le client. Helixlab se réserve le droit de les modifier avec un préavis de 30 jours. TVA non applicable — Art. 293B CGI.</p>
+            <p><span className="font-medium text-gray-900">Article 3 — Durée : </span>Contrat mensuel renouvelable tacitement après une semaine d&apos;essai gratuit. Résiliation possible avec 30 jours de préavis par email à <a href="mailto:contact@helixlab.fr" className="underline underline-offset-2 hover:text-gray-900">contact@helixlab.fr</a>.</p>
+            <p><span className="font-medium text-gray-900">Article 4 — Paiement : </span>Par virement bancaire, selon les modalités du devis accepté.</p>
+            <p><span className="font-medium text-gray-900">Article 5 — Responsabilité : </span>Helixlab est soumis à une obligation de moyens. La responsabilité est limitée au montant mensuel de la formule souscrite.</p>
+            <p><span className="font-medium text-gray-900">Article 6 — Sous-traitants RGPD : </span>Convocore/TIXAE Labs (agent IA), Anthropic/Claude (intelligence artificielle), Google LLC (Sheets + Calendar), Meta Platforms (Instagram + Messenger), Make/Celonis (automatisation).</p>
+            <p><span className="font-medium text-gray-900">Article 7 — Droit applicable : </span>Droit français. Tribunaux d&apos;Auvergne-Rhône-Alpes compétents.</p>
           </div>
         </section>
 
@@ -52,14 +53,14 @@ export default function MentionsLegales() {
             <div><dt className="inline font-medium text-gray-900">Données collectées : </dt><dd className="inline">Nom, email, téléphone des cliniques clientes</dd></div>
             <div><dt className="inline font-medium text-gray-900">Finalité : </dt><dd className="inline">Fourniture du service de relance automatique</dd></div>
             <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Netlify — conforme RGPD</dd></div>
-            <div><dt className="inline font-medium text-gray-900">Sous-traitants : </dt><dd className="inline">Anthropic (Claude AI), Twilio (WhatsApp), Make (automatisation), Google Sheets (données), Meta Platforms (Instagram DM)</dd></div>
+            <div><dt className="inline font-medium text-gray-900">Sous-traitants : </dt><dd className="inline">Convocore/TIXAE Labs (agent IA), Anthropic/Claude (intelligence artificielle), Google LLC (Sheets + Calendar), Meta Platforms (Instagram + Messenger), Make/Celonis (automatisation)</dd></div>
             <div><dt className="inline font-medium text-gray-900">Durée de conservation : </dt><dd className="inline">Durée de l&apos;abonnement + 12 mois</dd></div>
             <div><dt className="inline font-medium text-gray-900">Droits : </dt><dd className="inline">Accès, rectification, effacement — contact <a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a> — réclamation <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-900">www.cnil.fr</a></dd></div>
             <div><dt className="inline font-medium text-gray-900">Cookies : </dt><dd className="inline">Techniques uniquement</dd></div>
           </dl>
         </section>
 
-        <p className="text-xs text-gray-400 mt-10">Mise à jour : Juin 2026 — Elisa Tholin, HelixLab®</p>
+        <p className="text-xs text-gray-400 mt-10">Mise à jour : Juillet 2026 — Elisa Tholin, Helixlab</p>
       </div>
     </main>
   );
