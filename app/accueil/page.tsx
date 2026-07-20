@@ -11,7 +11,7 @@ export default function AccueilPage() {
                     title={<>Répondez à vos prospects.<br />Même quand vous êtes en soin.</>}
                     description="Helixlab installe un agent IA qui répond à vos prospects 24h/24 sur Instagram, WhatsApp et Messenger — et réserve les RDV directement dans votre agenda."
                     buttonText="Voir la démo"
-                    buttonLink="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab"
+                    buttonLink="mailto:contact@helixlab.fr?subject=Demande%20de%20démo%20Helixlab"
                     imageUrl1="/prospect-ecrit.jpg"
                     imageUrl2="/clinique.jpg"
                 />
@@ -53,7 +53,7 @@ export default function AccueilPage() {
                         Réservez une démo de 20 minutes et voyez HelixLab en action sur votre clinique.
                     </p>
                     <a
-                        href="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab"
+                        href="mailto:contact@helixlab.fr?subject=Demande%20de%20démo%20Helixlab"
                         className="inline-block bg-white text-black font-semibold px-8 py-4 rounded-xl text-base hover:bg-gray-100 transition-colors"
                     >
                         Nous contacter →

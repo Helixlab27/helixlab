@@ -16,7 +16,7 @@ export default function MentionsLegales() {
             <div><dt className="inline font-medium text-gray-900">Éditeur : </dt><dd className="inline">HelixLab® — Elisa Tholin</dd></div>
             <div><dt className="inline font-medium text-gray-900">Statut : </dt><dd className="inline">Auto-entrepreneur</dd></div>
             <div><dt className="inline font-medium text-gray-900">SIRET : </dt><dd className="inline">10328251300011</dd></div>
-            <div><dt className="inline font-medium text-gray-900">Email : </dt><dd className="inline"><a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a></dd></div>
+            <div><dt className="inline font-medium text-gray-900">Email : </dt><dd className="inline"><a href="mailto:contact@helixlab.fr" className="underline underline-offset-2 hover:text-gray-900">contact@helixlab.fr</a></dd></div>
             <div><dt className="inline font-medium text-gray-900">Site : </dt><dd className="inline">helixlab.fr</dd></div>
             <div><dt className="inline font-medium text-gray-900">Localisation : </dt><dd className="inline">Auvergne-Rhône-Alpes, France</dd></div>
             <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Netlify, Inc. — 2325 3rd Street, Suite 215, San Francisco, CA 94107, USA</dd></div>
@@ -49,13 +49,13 @@ export default function MentionsLegales() {
             Politique de confidentialité
           </h2>
           <dl className="space-y-3 text-sm text-gray-700 leading-relaxed">
-            <div><dt className="inline font-medium text-gray-900">Responsable : </dt><dd className="inline">HelixLab® — Elisa Tholin — <a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a></dd></div>
+            <div><dt className="inline font-medium text-gray-900">Responsable : </dt><dd className="inline">HelixLab® — Elisa Tholin — <a href="mailto:contact@helixlab.fr" className="underline underline-offset-2 hover:text-gray-900">contact@helixlab.fr</a></dd></div>
             <div><dt className="inline font-medium text-gray-900">Données collectées : </dt><dd className="inline">Nom, email, téléphone des cliniques clientes</dd></div>
             <div><dt className="inline font-medium text-gray-900">Finalité : </dt><dd className="inline">Fourniture du service d&apos;agent IA d&apos;acquisition de clients</dd></div>
             <div><dt className="inline font-medium text-gray-900">Hébergement : </dt><dd className="inline">Netlify — conforme RGPD</dd></div>
             <div><dt className="inline font-medium text-gray-900">Sous-traitants : </dt><dd className="inline">Convocore/TIXAE Labs (agent IA), Anthropic/Claude (intelligence artificielle), Google LLC (Sheets + Calendar), Meta Platforms (Instagram + Messenger), Make/Celonis (automatisation)</dd></div>
             <div><dt className="inline font-medium text-gray-900">Durée de conservation : </dt><dd className="inline">Durée de l&apos;abonnement + 12 mois</dd></div>
-            <div><dt className="inline font-medium text-gray-900">Droits : </dt><dd className="inline">Accès, rectification, effacement — contact <a href="mailto:helixlab27@gmail.com" className="underline underline-offset-2 hover:text-gray-900">helixlab27@gmail.com</a> — réclamation <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-900">www.cnil.fr</a></dd></div>
+            <div><dt className="inline font-medium text-gray-900">Droits : </dt><dd className="inline">Accès, rectification, effacement — contact <a href="mailto:contact@helixlab.fr" className="underline underline-offset-2 hover:text-gray-900">contact@helixlab.fr</a> — réclamation <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-900">www.cnil.fr</a></dd></div>
             <div><dt className="inline font-medium text-gray-900">Cookies : </dt><dd className="inline">Techniques uniquement</dd></div>
           </dl>
         </section>

@@ -66,7 +66,7 @@ export default function HomePage() {
                                     Helixlab installe un agent IA qui répond à vos prospects 24h/24 et réserve les RDV dans votre agenda.
                                 </p>
                                 <a
-                                    href="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab"
+                                    href="mailto:contact@helixlab.fr?subject=Demande%20de%20démo%20Helixlab"
                                     className="md:hidden inline-block mt-6 px-6 py-3 bg-gray-900 text-white font-semibold rounded-xl text-base tracking-tight hover:bg-black transition-colors"
                                 >
                                     Voir la démo →

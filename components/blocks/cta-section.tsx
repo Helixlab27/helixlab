@@ -31,7 +31,7 @@ export default function CTASection() {
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
-                            href="mailto:helixlab27@gmail.com?subject=Demande%20de%20démo%20Helixlab&body=Bonjour%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20Helixlab."
+                            href="mailto:contact@helixlab.fr?subject=Demande%20de%20démo%20Helixlab&body=Bonjour%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20Helixlab."
                             className="bg-[#C9A96E] text-white text-xs tracking-[0.2em] uppercase px-8 py-4 font-medium hover:bg-[#b8956a] transition-colors"
                         >
                             Demander une démo
